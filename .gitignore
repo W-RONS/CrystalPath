@@ -10,6 +10,9 @@ __pycache__/
 htmlcov/
 build/
 dist/
+release/
+*.app/
+*.dmg
 
 # Virtual environments
 .venv/
@@ -23,6 +26,8 @@ tmp/
 temp/
 *.tmp
 *.log
+nuitka-crash-report*.xml
+packaging/macos/deployment/
 
 # Local settings and editor files
 .DS_Store

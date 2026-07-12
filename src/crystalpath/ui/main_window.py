@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
         self._pending_interstitial_visibility_kind: str | None = None
         self._interstitial_visibility_update_scheduled = False
         self.settings = QSettings()
-        self.setWindowTitle("CrystalPath V0.3.4")
+        self.setWindowTitle("CrystalPath V0.3.5")
         self.resize(1380, 820)
         self._build_actions()
         self._build_ui()
