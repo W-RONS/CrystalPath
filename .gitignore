@@ -1,0 +1,43 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated previews and temporary output
+preview*/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Local settings and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Credentials and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json

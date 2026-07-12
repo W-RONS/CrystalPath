@@ -1,0 +1,2 @@
+"""VTK/PyVista rendering helpers."""
+
